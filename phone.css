@@ -1,0 +1,41 @@
+/*Home*/
+#home{
+    height: 820px;
+}
+.headings{
+    font-size: 1.7rem;
+}
+/*About Me*/
+#pic{
+    width: 250px;
+    height: 150px;
+}
+#intro b{
+    font-size: 1.5rem;
+    height: 150px;
+    width: 250px;
+}
+/* Education */
+#education .master{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 150px;
+    border: 5px ridge black;
+    margin: 10px ;
+    align-items: center;
+    text-align: justify;
+    padding: 5px;
+    margin-bottom: 0.5mm;
+}
+/*Contact*/
+.input{
+    width: 80%;
+}
+#msg{
+    width: 70%;
+}
+#send{
+    width: 20%;
+}
