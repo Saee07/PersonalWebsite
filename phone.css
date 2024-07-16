@@ -1,3 +1,8 @@
+/*Navbar*/
+.navbar ul{
+    flex-wrap: wrap;
+    justify-content: justify;
+}
 /*Home*/
 #home{
     height: 820px;
@@ -7,13 +12,15 @@
 }
 /*About Me*/
 #pic{
+    flex-direction: column;
+    align-items: center;
     width: 250px;
     height: 150px;
 }
 #intro b{
+    text-align: center;
+    padding: 10px;
     font-size: 1.5rem;
-    height: 150px;
-    width: 250px;
 }
 /* Education */
 #education{
